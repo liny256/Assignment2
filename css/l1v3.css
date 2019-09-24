@@ -1,0 +1,103 @@
+body{
+  background-color: rgba(40, 50, 75, 0.91);
+  color:rgb(129, 158, 182);
+  font-family: 'Indie Flower', cursive;
+}
+h1{
+  font-size:120px;
+  margin-left:40px;
+  margin-bottom:0px !important;
+  margin-top: 35px !important;
+  padding-top: 0px !important;
+  border-top: dashed 2px rgb(129, 158, 182);
+}
+h4{
+  margin-left:40px;
+  margin-top:10px;
+}
+p{
+  margin-left:40px;
+  margin-bottom:5px;
+  font-size: 18;
+}
+.container{
+  position:relative;
+}
+.buiding1{
+  background-color: rgb(129, 158, 182);
+  width:130px;
+  height:300px;
+  position:absolute;
+  right:20%;
+  top:calc(10% + 22px);
+}
+.building2{
+  background-color: rgb(129, 158, 182);
+  width:30px;
+  height:230px;
+  position:absolute;
+  right:calc(20% - 35px);
+  top:calc(10% + 92px);
+}
+
+.building3{
+  background-color: rgb(129, 158, 182);
+  width:50px;
+  height:190px;
+  position:absolute;
+  right:calc(20% - 90px);
+  top:calc(10% + 132px);
+}
+.building4{
+  background-color: rgb(129, 158, 182);
+  width:100px;
+  height:90px;
+  position:absolute;
+  right:calc(20% - 195px);
+  top:calc(10% + 232px);
+}
+.building5{
+  background-color: rgb(129, 158, 182);
+  width:100px;
+  height:240px;
+  position:absolute;
+  right:calc(20% + 135px);
+  top:calc(10% + 82px);
+}
+.moon{
+  background-color: rgba(40, 50, 75, 0.91);
+  box-shadow: white 8px 8px 8px 8px;
+  border-radius: 150px;
+  width:150px;
+  height:150px;
+  position:absolute;
+  left:30%;
+}
+.bigmoon{
+  background-color: rgba(40, 50, 75, 0.91);
+  box-shadow: white 20px 20px 20px 20px;
+  border-radius: 300px;
+  width:300px;
+  height:300px;
+  position:absolute;
+  left:60%;
+  bottom: 10%;
+  border:dotted 2px white;
+}
+
+#link{
+  color:rgb(129, 158, 182);
+  position:absolute;
+  left:calc(50% - 24px);
+  top:calc(50% - 24px);
+  font-size: 36px;
+}
+a:hover{
+  color:rgb(129, 158, 182);
+}
+a:visited{
+  color:white;
+}
+a:before{
+  color:white;
+}

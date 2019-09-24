@@ -1,0 +1,163 @@
+
+    body{
+      background-color: #917e71;
+      font-family:'Abril Fatface'
+    }
+    p{
+      margin-left:50px;
+      margin-bottom:5px;
+    }
+    h1{
+      font-size:100px;
+      margin-left: 40px;
+      margin-bottom:0px !important;
+      color:#acafad;
+    }
+    #border{
+      position: relative;
+      border-bottom: 2px dashed #acafad;
+      padding:5px;
+      margin-left: 10px;
+    }
+    #aligntoborder{
+      position:absolute;
+      left:25px;
+    }
+    .color{
+      color:#acafad;
+      font-size: 18px;
+      font-style: oblique;
+    }
+    .container{
+      position:relative;
+    }
+    .outercircle{
+      border:dotted 20px #acafad;
+      left:40%;
+      position:absolute;
+      width:700px;
+      height:700px;
+      border-radius: 700px;
+    }
+    .outercircle1{
+      border:dotted 10px #acafad;
+      left:calc(50% - 330px);
+      top:calc(50% - 330px);
+      position:absolute;
+      width:650px;
+      height:650px;
+      border-radius: 650px;
+    }
+
+    .middlecircle{
+      border:dashed 3px #acafad;
+      position:absolute;
+      left:calc(50% - 150px);
+      top:calc(50% - 150px);
+      width:300px;
+      height:300px;
+      border-radius: 300px;
+    }
+    .smallcircle{
+      background-color: rgb(172, 175, 173);
+      position:absolute;
+      left:calc(50% - 125px);
+      top:calc(50% - 125px);
+      width:250px;
+      height:250px;
+      border-radius:250px;
+    }
+
+
+    .outercircleB{
+      border:dotted 20px #acafad;
+      left:15%;
+      position:absolute;
+      width:300px;
+      height:300px;
+      border-radius: 300px;
+    }
+    .outercircleB1{
+      border:dotted 10px #acafad;
+      left:calc(50% - 146px);
+      top:calc(50% - 146px);
+      position:absolute;
+      width:270px;
+      height:270px;
+      border-radius: 270px;
+    }
+
+    .middlecircleB{
+      border:dashed 2px #acafad;
+      position:absolute;
+      left:calc(50% - 52px);
+      top:calc(50% - 52px);
+      width:100px;
+      height:100px;
+      border-radius: 100px;
+    }
+    .smallcircleB{
+      background-color: rgb(172, 175, 173);
+      position:absolute;
+      left:calc(50% - 125px);
+      top:calc(50% - 125px);
+      width:250px;
+      height:250px;
+      border-radius:250px;
+    }
+
+
+    .outercircleC{
+      border:dotted 20px #acafad;
+      left:60%;
+      bottom:6%;
+      position:absolute;
+      width:300px;
+      height:300px;
+      border-radius: 300px;
+    }
+    .outercircleC1{
+      border:dotted 10px #acafad;
+      left:calc(50% - 146px);
+      top:calc(50% - 146px);
+      position:absolute;
+      width:270px;
+      height:270px;
+      border-radius: 270px;
+    }
+
+    .middlecircleC{
+      border:dashed 2px #acafad;
+      position:absolute;
+      left:calc(50% - 52px);
+      top:calc(50% - 52px);
+      width:100px;
+      height:100px;
+      border-radius: 100px;
+    }
+    .smallcircleC{
+      background-color: rgb(172, 175, 173);
+      position:absolute;
+      left:calc(50% - 125px);
+      top:calc(50% - 125px);
+      width:250px;
+      height:250px;
+      border-radius:250px;
+    }
+    .link{
+      color:black;
+      position:absolute;
+      left:calc(50% - 24px);
+      top:calc(50% - 24px);
+      font-size: 36px;
+    }
+
+    a:hover{
+      color:#917e71;
+    }
+    a:visited{
+      color:black;
+    }
+    a:before{
+      color:black;
+    }
